@@ -11,6 +11,6 @@ export class Product {
   @Column()
   description: string;
 
-  @Column()
+  @Column({ default: 0 })
   votes: number;
 }
